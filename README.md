@@ -1,3 +1,2 @@
 # sfg-pet-clinic
-
-Spring pet clinic
+SFT Pet Clinic

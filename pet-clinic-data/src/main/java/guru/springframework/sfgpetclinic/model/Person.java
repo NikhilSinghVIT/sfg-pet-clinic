@@ -1,8 +1,11 @@
 package guru.springframework.sfgpetclinic.model;
 
+/**
+ * Created by jt on 7/13/18.
+ */
 public class Person {
-    private String firstName;
 
+    private String firstName;
     private String lastName;
 
     public String getFirstName() {
