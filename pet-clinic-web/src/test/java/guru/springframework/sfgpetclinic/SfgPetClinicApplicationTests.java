@@ -8,12 +8,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-//@SpringBootTest(classes = {SfgPetClinicApplication.class})
+@SpringBootTest(classes = {SfgPetClinicApplication.class})
 public class SfgPetClinicApplicationTests {
 
-//    @Test
-//    public void contextLoads() {
-//    }
+    @Test
+    public void contextLoads() {
+    }
     @Test
     public void mocktest(){
         Assert.assertTrue(true);
