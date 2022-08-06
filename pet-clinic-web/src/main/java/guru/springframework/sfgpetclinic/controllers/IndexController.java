@@ -10,4 +10,9 @@ public class IndexController {
     public String index(){  //return the index page on any of these endpoints
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String oupsHandler(){
+        return "notimplemented";
+    }
 }
